@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <div class="container">
+        <h1 style="text-align:center;"> Job Work Details</h1>
+        
+      <form method="post" action="/add">
+          <label for="fname">Customers Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your name..">
+
+          <label for="date">Date of the Job</label>
+         <input type="text" id="date"  name="ate"placeholder="dd-mm-yy"><br>
+      
+          <label for="lname">Thickness of the sheet</label>
+          <input type="text" id="lname" name="thick" placeholder="Thickness in mm">
+      
+          <label for="material">Material Type</label>
+          <select id="material" name="material">
+            <option value="MS">MS</option>
+            <option value="SS">SS(202)</option>
+            <option value="SS">SS(304)</option>
+            <option value="brass">Brass</option>
+          </select>
+        
+          <label for="lname">Time taken for the Job</label>
+          <input type="text" name="time" placeholder="hh:mm:ss" id="time">
+      
+          <label for="subject">Job Description</label>
+          <textarea id="subject" name="job" placeholder="Write something.." style="height:200px"></textarea>
+           
+           <div style="text-align:center">
+              <input type="submit" class="btn btn-primary"  id="sumit">
+   
+          <a href="/">
+            <button type="button" class="btn btn-danger">Cancel</button>
+            </a>
+
+            </form>
+          </div>
+
+           
+       
+      </div>
+</body>
+</html>

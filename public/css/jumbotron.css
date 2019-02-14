@@ -1,0 +1,51 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+  }
+
+
+  #done{
+text-align: right
+  }
+
+
+
+.heading{
+    color: aliceblue;
+}
+
+.jumbotron{
+    background-color: orange;
+    text-align: center;
+}
+
+#head{
+
+    background-color:lightskyblue
+}
+
+#jumbo{
+
+    background-color: orange;
+}
+
+#list{
+    margin: 35px;
+    background-color: lightgoldenrodyellow
+}
+
+
+
+ul{
+    
+    font-family: Helvetica, Arial, sans-serif
+}
+#green{
+    background-color: lightgreen
+}
+#blue{
+    padding: 20px;
+}
+#red{
+    align-self: right
+}
