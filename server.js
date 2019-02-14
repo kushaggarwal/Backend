@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const path = require('path')
 const exphbs = require('express-handlebars')
 const nodemailer = require('nodemailer')
+const PORT = process.env.PORT || 3987
 
 app.engine('handlebars', exphbs())
 app.use(express.json())
@@ -60,7 +61,7 @@ app.post('/add',(req,res)=>{
             res.send(err)
         })
 })
-app.listen(4444, ()=>{
+app.listen(PORT, ()=>{
     console.log("Server started at localhost 4444")
 })
 
